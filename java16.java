@@ -10,5 +10,6 @@ public class java16 {
         int yil = input.nextInt();
         if(yil%4 == 0) System.out.println(yil + " artık yıldır.");
         else System.out.println(yil + " artık yıl değildir.");
+        input.close();
     }
 }
